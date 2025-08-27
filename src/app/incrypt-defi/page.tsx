@@ -1,6 +1,7 @@
 import { marked } from "marked";
 import fs from "node:fs";
 import path from "node:path";
+import Link from "next/link";
 
 export const metadata = {
   title: "IncryptDefi",
@@ -24,7 +25,7 @@ export default async function IncryptDefiPage() {
           </p>
           <div className="mt-6 flex items-center justify-center gap-3 flex-wrap">
             <a href="#content" className="btn-neon rounded-md px-5 py-2.5 bg-white/5 border border-white/10">Read Overview</a>
-            <a href="/#contact" className="btn-neon rounded-md px-5 py-2.5 bg-[rgba(255,43,209,0.08)] border border-[rgba(255,43,209,0.35)]">Contact</a>
+            <Link href="/#contact" className="btn-neon rounded-md px-5 py-2.5 bg-[rgba(255,43,209,0.08)] border border-[rgba(255,43,209,0.35)]">Contact</Link>
           </div>
         </div>
       </section>
