@@ -10,7 +10,7 @@ export default function Home() {
           <video
             className="w-[900px] max-w-[90vw] h-auto mix-blend-screen opacity-80"
             preload="none"
-            poster="/assets/brain-vid.jpg"
+            poster="/assets/brain-vid.png"
             playsInline
             autoPlay
             muted
