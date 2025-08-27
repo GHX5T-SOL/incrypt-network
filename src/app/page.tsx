@@ -9,13 +9,13 @@ export default function Home() {
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           <video
             className="w-[900px] max-w-[90vw] h-auto mix-blend-screen opacity-80"
-            src="/assets/brain-vid.mp4"
-            poster="/assets/brain-vid.gif"
             playsInline
             autoPlay
             muted
             loop
-          />
+          >
+            <source src="/assets/brain-vid.mp4" type="video/mp4" />
+          </video>
         </div>
         <div className="relative z-10 mx-auto max-w-6xl px-6 pt-28 pb-20 sm:pt-36 sm:pb-28 text-center">
           <div className="flex justify-center mb-8">
