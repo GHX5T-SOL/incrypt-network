@@ -81,6 +81,7 @@ export default function Home() {
             <div className="flex gap-3 flex-wrap mt-2">
               <Link href="/incrypt-x" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Learn more</Link>
               <a href="https://incryptx-demo.vercel.app" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Demo</a>
+              <a href="https://github.com/GHX5T-SOL/incryptX" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">GitHub</a>
             </div>
           </div>
         </div>
@@ -89,17 +90,12 @@ export default function Home() {
       {/* Contact */}
       <section id="contact" className="mx-auto max-w-6xl px-6 pb-24">
         <div className="glass rounded-xl p-6">
-          <h2 className="text-2xl font-semibold mb-3">Contact</h2>
-          <p className="text-white/80">Email: <a className="underline" href="mailto:incryptinvestments@protonmail.com">incryptinvestments@protonmail.com</a></p>
-          <div className="mt-6 flex flex-col gap-4">
+          <h2 className="text-2xl font-semibold mb-3 text-center">Contact</h2>
+          <div className="flex flex-col items-center gap-3 text-white/80">
+            <p>
+              Email: <a className="underline" href="mailto:incryptinvestments@protonmail.com">incryptinvestments@protonmail.com</a>
+            </p>
             <a href="https://x.com/Incrypt_defi" target="_blank" rel="noopener noreferrer" className="btn-neon inline-block rounded-md px-4 py-2 bg-white/5 border border-white/10">Follow @Incrypt_defi</a>
-            <div className="rounded-md overflow-hidden border border-white/10">
-              <iframe
-                title="Incrypt Network X Timeline"
-                className="w-full h-[600px]"
-                srcDoc='<!doctype html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"/><style>html,body{margin:0;background:transparent}</style></head><body><a class="twitter-timeline" data-theme="dark" href="https://twitter.com/Incrypt_defi">Tweets by Incrypt_defi</a><script async src="https://platform.twitter.com/widgets.js"></script></body></html>'
-              />
-            </div>
           </div>
         </div>
       </section>
