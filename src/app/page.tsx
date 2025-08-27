@@ -9,6 +9,8 @@ export default function Home() {
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           <video
             className="w-[900px] max-w-[90vw] h-auto mix-blend-screen opacity-80"
+            preload="none"
+            poster="/assets/brain-vid.jpg"
             playsInline
             autoPlay
             muted
