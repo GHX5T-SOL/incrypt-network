@@ -20,9 +20,6 @@ export default function Home() {
           </video>
         </div>
         <div className="relative z-10 mx-auto max-w-6xl px-6 pt-28 pb-20 sm:pt-36 sm:pb-28 text-center">
-          <div className="flex justify-center mb-8">
-            <Image src="/assets/incrypt-network-logo.svg" alt="Incrypt Network" width={72} height={72} />
-          </div>
           <h1 className="text-4xl sm:text-6xl font-semibold tracking-tight neon-text">
             Incrypt Network
           </h1>
