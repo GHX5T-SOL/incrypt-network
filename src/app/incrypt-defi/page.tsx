@@ -69,7 +69,7 @@ export default async function IncryptDefiPage() {
             </div>
           </div>
           <div className="flex flex-wrap items-center gap-3 pt-2">
-            <a href="https://expo.dev/accounts/ghxstxbt/projects/incrypt/builds/792f6288-7fd2-4bd0-82be-70a00248121f" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Android Demo</a>
+            <a href="https://expo.dev/accounts/ghxstxbt/projects/chumchon/builds/1f8f002d-9350-45a9-8402-79dbe442214d" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Android Demo</a>
             <a href="https://incrypt--demo.expo.app" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Web Demo</a>
             <a href="https://github.com/GHX5T-SOL/incrypt" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">GitHub</a>
           </div>
