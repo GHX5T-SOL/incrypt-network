@@ -2,6 +2,7 @@ import { marked } from "marked";
 import fs from "node:fs";
 import path from "node:path";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title: "IncryptX",
@@ -60,6 +61,29 @@ export default async function IncryptXPage() {
           <div className="flex flex-wrap items-center gap-3 pt-2">
             <a href="https://incryptx-demo.vercel.app" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Demo</a>
             <a href="https://github.com/GHX5T-SOL/incryptX" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">GitHub</a>
+          </div>
+        </div>
+      </section>
+      <section className="mx-auto max-w-5xl py-6">
+        <h3 className="text-xl font-semibold mb-4 text-center">Screenshots</h3>
+        <div className="grid sm:grid-cols-2 gap-6 items-center">
+          <div className="rounded-xl overflow-hidden border border-white/10 bg-white/5 p-4 flex items-center justify-center">
+            <Image
+              src="/assets/IncryptX-HomePage-screenshot.svg"
+              alt="IncryptX — Homepage"
+              width={900}
+              height={600}
+              className="w-full h-auto"
+            />
+          </div>
+          <div className="rounded-xl overflow-hidden border border-white/10 bg-white/5 p-4 flex items-center justify-center">
+            <Image
+              src="/assets/IncryptX-CreateToken-screenshot.svg"
+              alt="IncryptX — Create Token"
+              width={900}
+              height={600}
+              className="w-full h-auto"
+            />
           </div>
         </div>
       </section>
