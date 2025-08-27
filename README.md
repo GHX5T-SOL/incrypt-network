@@ -50,4 +50,3 @@ If you discover a vulnerability, report it privately to the maintainers. Do not 
 ### License
 
 This repository is licensed under a proprietary license. See [`LICENSE`](./LICENSE) for details. All rights reserved. Unauthorized use, copying, modification, distribution, or commercial use is prohibited.
-# incrypt-network
