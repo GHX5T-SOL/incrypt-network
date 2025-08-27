@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Incrypt Network
 
-## Getting Started
+<p align="center">
+  <img src="https://i.ibb.co/G3vX7YkS/incrypt-network-logo.png" alt="Incrypt Network" width="640" />
+</p>
 
-First, run the development server:
+<p align="center">
+  <a href="https://nodejs.org/en"><img alt="Node.js" src="https://img.shields.io/badge/Node-18%2B-339933?logo=node.js&logoColor=white"></a>
+  <a href="https://nextjs.org/"><img alt="Next.js" src="https://img.shields.io/badge/Next.js-15.5.2-000000?logo=nextdotjs&logoColor=white"></a>
+  <a href="https://react.dev/"><img alt="React" src="https://img.shields.io/badge/React-19.1.0-61DAFB?logo=react&logoColor=black"></a>
+  <a href="https://tailwindcss.com/"><img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind%20CSS-4.0-38B2AC?logo=tailwindcss&logoColor=white"></a>
+  <a href="#license"><img alt="License" src="https://img.shields.io/badge/License-Proprietary-critical"></a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> A modern, neon‑infused Next.js 15 app powering the Incrypt Network. Built with React 19 and Tailwind CSS 4, optimized with Turbopack.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Monorepo Layout
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **web/**: Next.js 15 app (React 19, Tailwind 4)
+  - **src/app/**: App Router routes and global styles
+  - **public/**: Static assets
+- **assets/**: Brand/media files
 
-## Learn More
+### Tech Highlights
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js 15 App Router, React 19
+- Tailwind CSS 4 with custom theme tokens in `web/src/app/globals.css`
+- Neon glass UI, vignette hero, prose styling
+- ESLint 9 with `eslint-config-next`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Development Notes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Global theme/effects live in `web/src/app/globals.css`.
+- Pages in `web/src/app/` (e.g., `page.tsx`, `incrypt-x/`, `incrypt-defi/`).
+- Static assets under `web/public/`.
 
-## Deploy on Vercel
+### Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are limited to the Incrypt Network team at this time.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- For feature requests or issues, open a ticket with clear reproduction steps.
+- External PRs may be closed without review.
+
+### Security
+
+If you discover a vulnerability, report it privately to the maintainers. Do not open a public issue.
+
+### License
+
+This repository is licensed under a proprietary license. See [`LICENSE`](./LICENSE) for details. All rights reserved. Unauthorized use, copying, modification, distribution, or commercial use is prohibited.
+# incrypt-network
