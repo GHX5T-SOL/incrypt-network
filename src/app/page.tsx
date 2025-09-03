@@ -67,7 +67,7 @@ export default function Home() {
             <p className="text-white/80">AI Intelligent DeFi on Solana: Meteora liquidity, Kamino/MarginFi lending, and IncryptAI strategies.</p>
             <div className="flex gap-3 flex-wrap mt-2">
               <Link href="/incrypt-defi" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Learn more</Link>
-              <a href="https://expo.dev/accounts/ghxstxbt/projects/chumchon/builds/bb5cdc94-b855-4ba0-9baa-fc92daceab83" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Android Demo</a>
+              <a href="https://expo.dev/accounts/ghxstxbt/projects/incrypt/builds/29987bbd-884a-4b4f-b4c4-b0f50cf84519" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Android Demo</a>
               <a href="https://incrypt--demo.expo.app" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Web Demo</a>
               <a href="https://github.com/GHX5T-SOL/incrypt" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">GitHub</a>
             </div>
