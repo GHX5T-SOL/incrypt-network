@@ -61,7 +61,7 @@ export default function Home() {
       {/* Products */}
       <section id="products" className="mx-auto max-w-6xl px-6 pb-20">
         <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Products</h2>
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-3 gap-6">
           <div className="glass p-6 rounded-xl flex flex-col gap-3">
             <h3 className="text-xl font-semibold">IncryptDefi</h3>
             <p className="text-white/80">AI Intelligent DeFi on Solana: Meteora liquidity, Kamino/MarginFi lending, and IncryptAI strategies.</p>
@@ -79,6 +79,15 @@ export default function Home() {
               <Link href="/incrypt-x" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Learn more</Link>
               <a href="https://incryptx-demo.vercel.app" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Demo</a>
               <a href="https://github.com/GHX5T-SOL/incryptX" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">GitHub</a>
+            </div>
+          </div>
+          <div className="glass p-6 rounded-xl flex flex-col gap-3">
+            <h3 className="text-xl font-semibold">IncryptExchange</h3>
+            <p className="text-white/80">A Decentralized Omnichain Perpetual Futures Exchange with shared Deep Liquidity and 140+ high leverage assets available for trading.</p>
+            <div className="flex gap-3 flex-wrap mt-2">
+              <Link href="/incrypt-exchange" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Learn More</Link>
+              <a href="https://github.com/OrderlyNetworkDexCreator/incrypt-exchange-9353" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">GitHub</a>
+              <a href="https://incrypt.exchange" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Launch Dex</a>
             </div>
           </div>
         </div>
