@@ -1,6 +1,3 @@
-import { marked } from "marked";
-import fs from "node:fs";
-import path from "node:path";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -33,7 +30,7 @@ export default async function IncryptExchangePage() {
           <div>
             <h2 className="text-2xl font-semibold mb-3">What is IncryptExchange?</h2>
             <p className="text-white/80">
-              IncryptExchange is a fully-featured omnichain perpetual futures exchange built on Orderly Network's 
+              IncryptExchange is a fully-featured omnichain perpetual futures exchange built on Orderly Network&apos;s 
               low-latency shared liquidity infrastructure. It provides access to 140+ assets with high leverage 
               trading across 17+ major blockchain networks, enabling seamless cross-chain trading without the 
               complexity of bridging funds.
@@ -65,7 +62,7 @@ export default async function IncryptExchangePage() {
           <div className="grid sm:grid-cols-2 gap-4">
             <div className="rounded-lg p-4 bg-white/5 border border-white/10">
               <h4 className="font-semibold mb-1">Unified Infrastructure</h4>
-              <p className="text-white/80">Built on Orderly Network's proven infrastructure with 700K+ traders, 55+ trusted partners, and $110B+ cumulative trading volume.</p>
+              <p className="text-white/80">Built on Orderly Network&apos;s proven infrastructure with 700K+ traders, 55+ trusted partners, and $110B+ cumulative trading volume.</p>
             </div>
             <div className="rounded-lg p-4 bg-white/5 border border-white/10">
               <h4 className="font-semibold mb-1">Professional Security</h4>
