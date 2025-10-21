@@ -121,7 +121,7 @@ export default async function IncryptOraclePage() {
                   <div className="text-white/70 text-sm">Avg Latency</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-semibold text-white">21</div>
+                  <div className="text-2xl font-semibold text-white">3</div>
                   <div className="text-white/70 text-sm">Active Validators</div>
                 </div>
                 <div>
@@ -129,8 +129,8 @@ export default async function IncryptOraclePage() {
                   <div className="text-white/70 text-sm">Data Feeds</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-semibold text-white">$2.5M+</div>
-                  <div className="text-white/70 text-sm">Total Volume</div>
+                  <div className="text-2xl font-semibold text-white">$5.8k</div>
+                  <div className="text-white/70 text-sm">Total Volume (Testnet)</div>
                 </div>
                 <div>
                   <div className="text-2xl font-semibold text-white">92%</div>

@@ -176,9 +176,9 @@ contract MyPredictionMarket {
 
 - **Oracle Uptime**: 99.97% 
 - **Average Latency**: 1.1s
-- **Active Validators**: 21
+- **Active Validators**: 3
 - **Data Feeds**: 47 active
-- **Total Volume**: $2.5M+
+- **Total Volume**: $5.8k (Testnet)
 
 ## 🌐 Deployment
 
