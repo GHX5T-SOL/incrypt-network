@@ -23,8 +23,7 @@ export default function Home() {
             Incrypt Network
           </h1>
           <p className="mt-4 text-base sm:text-lg text-white/80 max-w-3xl mx-auto">
-            AI-powered DeFi and next-gen trading on Solana. Build, trade, and scale with
-            IncryptDefi and IncryptX.
+            AI-powered DeFi products built on Solana and EVM blockchains. Build, trade, and scale with Incrypt Network.
           </p>
           <div className="mt-8 flex items-center justify-center gap-4 flex-wrap">
             <Link href="#products" className="btn-neon rounded-md px-5 py-3 bg-[rgba(255,255,255,0.06)] border border-white/10">
@@ -48,7 +47,7 @@ export default function Home() {
           </div>
           <div className="glass p-6 rounded-xl">
             <h3 className="text-lg font-semibold mb-2">Mobile-first + Desktop</h3>
-            <p className="text-white/80">Built for Solana Mobile with seamless desktop experiences.</p>
+            <p className="text-white/80">Built for Mobile with seamless desktop experiences.</p>
           </div>
           <div className="glass p-6 rounded-xl">
             <h3 className="text-lg font-semibold mb-2">High Performance</h3>
@@ -60,7 +59,7 @@ export default function Home() {
       {/* Products */}
       <section id="products" className="mx-auto max-w-6xl px-6 pb-20">
         <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Products</h2>
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           <div className="glass p-6 rounded-xl flex flex-col gap-3">
             <h3 className="text-xl font-semibold">IncryptDefi</h3>
             <p className="text-white/80">AI Intelligent DeFi on Solana: Meteora liquidity, Kamino/MarginFi lending, and IncryptAI strategies.</p>
@@ -87,6 +86,15 @@ export default function Home() {
               <Link href="/incrypt-exchange" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Learn More</Link>
               <a href="https://github.com/OrderlyNetworkDexCreator/incrypt-exchange-9353" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">GitHub</a>
               <a href="https://incrypt.exchange" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Launch Dex</a>
+            </div>
+          </div>
+          <div className="glass p-6 rounded-xl flex flex-col gap-3">
+            <h3 className="text-xl font-semibold">IncryptOracle</h3>
+            <p className="text-white/80">Decentralized oracle infrastructure powering the next generation of prediction markets on Binance Smart Chain. Fast, secure, and community-governed.</p>
+            <div className="flex gap-3 flex-wrap mt-2">
+              <Link href="/incrypt-oracle" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Learn More</Link>
+              <a href="https://github.com/GHX5T-SOL/IncryptOracle" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">GitHub</a>
+              <a href="https://incrypt.fun" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Launch App</a>
             </div>
           </div>
         </div>

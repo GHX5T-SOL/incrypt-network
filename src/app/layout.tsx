@@ -69,6 +69,8 @@ export default function RootLayout({
             <nav className="hidden sm:flex items-center gap-6 text-sm">
               <Link href="/incrypt-defi" className="hover:underline">IncryptDefi</Link>
               <Link href="/incrypt-x" className="hover:underline">IncryptX</Link>
+              <Link href="/incrypt-exchange" className="hover:underline">IncryptExchange</Link>
+              <Link href="/incrypt-oracle" className="hover:underline">IncryptOracle</Link>
               <a href="#contact" className="hover:underline">Contact</a>
             </nav>
           </div>
