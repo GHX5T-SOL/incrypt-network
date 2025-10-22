@@ -97,6 +97,15 @@ export default function Home() {
               <a href="https://incrypt.fun" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Launch App</a>
             </div>
           </div>
+          <div className="glass p-6 rounded-xl flex flex-col gap-3">
+            <h3 className="text-xl font-semibold">Chumchon</h3>
+            <p className="text-white/80">Decentralized Social Network built on Solana with Token/NFT‑gated communities, on‑chain escrow for OTC swaps, verifiable reputation via PDAs, and ECIES‑encrypted DMs. Sub‑second finality powered by Proof‑of‑History.</p>
+            <div className="flex gap-3 flex-wrap mt-2">
+              <Link href="/chumchon" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Learn More</Link>
+              <a href="https://chumchon.app" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Launch App</a>
+              <a href="https://github.com/GHX5T-SOL/chumchon" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">GitHub</a>
+            </div>
+          </div>
         </div>
       </section>
 

@@ -71,6 +71,7 @@ export default function RootLayout({
               <Link href="/incrypt-x" className="hover:underline">IncryptX</Link>
               <Link href="/incrypt-exchange" className="hover:underline">IncryptExchange</Link>
               <Link href="/incrypt-oracle" className="hover:underline">IncryptOracle</Link>
+              <Link href="/chumchon" className="hover:underline">Chumchon</Link>
               <a href="#contact" className="hover:underline">Contact</a>
             </nav>
           </div>
