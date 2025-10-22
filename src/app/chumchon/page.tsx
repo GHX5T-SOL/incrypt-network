@@ -49,7 +49,7 @@ export default async function ChumchonPage() {
                 <span className="font-medium text-white">Messaging System</span> — Send encrypted messages in groups and tip content creators with SOL or SPL Tokens
               </li>
               <li>
-                <span className="font-medium text-white">Escrow System</span> — Securely trade tokens with other users through on-chain escrow in "Whale Groups"
+                <span className="font-medium text-white">Escrow System</span> — Securely trade tokens with other users through on-chain escrow in &quot;Whale Groups&quot;
               </li>
               <li>
                 <span className="font-medium text-white">Invite System</span> — Generate and share invite links to bring friends into groups
