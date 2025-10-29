@@ -106,6 +106,15 @@ export default function Home() {
               <a href="https://github.com/GHX5T-SOL/chumchon" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">GitHub</a>
             </div>
           </div>
+          <div className="glass p-6 rounded-xl flex flex-col gap-3">
+            <h3 className="text-xl font-semibold">IncryptSignal</h3>
+            <p className="text-white/80">AI Trading Signal built on Solana that enables agents to earn revenue through instant micropayments using the x402 protocol.</p>
+            <div className="flex gap-3 flex-wrap mt-2">
+              <Link href="/incrypt-signal" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Learn More</Link>
+              <a href="https://incrypt-signal.vercel.app" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">Launch App</a>
+              <a href="https://github.com/GHX5T-SOL/IncryptSignal" target="_blank" rel="noopener noreferrer" className="btn-neon rounded-md px-4 py-2 bg-white/5 border border-white/10">GitHub</a>
+            </div>
+          </div>
         </div>
       </section>
 
